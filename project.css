@@ -1,0 +1,105 @@
+.banner{
+	background-color: #420039;
+	padding: 30px;
+	text-align: center;
+	color: #F8FFF4;
+}
+
+.main-background{
+	/*Black Olive*/
+	background-color: #3F3F37;
+	padding: 5px;
+}
+
+.textbox-background{
+	/*Pineapple*/
+	background-color: #5C415D;
+	/*Mint Cream*/
+	color: #F8FFF4;
+	font-size: 1.25em;
+	border: 2.5px solid black;
+	padding: 3px;
+	/*Gunmetal*/
+	box-shadow: 10px 10px 5px #30343F;
+
+}
+.textbox-background a{
+	color: #C3BEF7;
+}
+
+.header{
+	background-color: #5C415D;
+	overflow: hidden;
+}
+
+.header a{
+	float: left;
+	color: #F8FFF4;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.header a:hover {
+	background-color: #F8FFF4;
+	color: black;
+}
+
+.header a.active {
+	/*Tyrian Purple*/
+  background-color: #420039;
+  color: white;
+}
+
+.stickyHeader{
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+
+.textIndent{
+	margin-left: 20px;
+}
+.largeColumnLeft{
+	float:left;
+	width: 55%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.largeColumnRight{
+	float:right;
+	width: 55%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.smallColumnLeft{
+	float:left;
+	width: 30%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.smallColumnRight{
+	float:right;
+	width: 30%;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.columnBreak{
+	float: left;
+	width:100%
+}
+@media screen and (max-width: 1000px){
+	.smallColumnRight{
+		width: 100%;
+	}
+	.smallColumnLeft{
+		width: 100%;
+	}
+	.largeColumnRight{
+		width: 100%;
+	}
+	.largeColumnLeft{
+		width: 100%;
+	}
+}
